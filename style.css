@@ -1,0 +1,21 @@
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: absolute;
+  top: 566;
+  left: 3455;
+}
+.image2 {
+  position: absolute;
+  top: -25px;
+  left: 300px;
+}
+.background{
+    position: absolute;
+  top: 0;
+  left: 0;
+
+}
