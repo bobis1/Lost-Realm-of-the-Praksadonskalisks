@@ -15,6 +15,22 @@
   width: 200px;
   height: 200px;
 }
+
+.rock1 {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+  width: 200px;
+  height: 200px;
+}
+.randomRock{
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  top: auto;
+  left: auto;
+}
+
 .background{
   position: absolute;
   top: 0;
