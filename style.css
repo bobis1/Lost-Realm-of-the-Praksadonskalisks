@@ -45,3 +45,19 @@ object-fit: cover;
   top: 60px;
   left: 5px;
 }
+
+.rock2 {
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  width: 200px;
+  height: 200px;
+}
+
+.building{
+  position: absolute;
+  top: 50px;
+  left: 400px;
+  width: 25%;
+  transform: rotate(-27deg);
+}
