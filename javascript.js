@@ -1,8 +1,6 @@
 var randomRock;
 let spaceW;
 let spaceH;
-let randomRock = document.getElementsByName("randomRock");
-
 
 function playAudio(audioClip) {
     new Audio(audioClip).play();

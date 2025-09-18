@@ -14,7 +14,16 @@
   <img class="lizard" src="./assets/praskabasil.png" />
   <img class="rock" src="./assets/rock.png" onclick="playAudio('./assets/5eec9fd189fe212f1d0f4660d6bfb46e.wav');remove(this)"/>
   <img class="rock1" src="./assets/rock1.png" onclick="playAudio('./assets/5eec9fd189fe212f1d0f4660d6bfb46e.wav');remove(this)"/>
-  <img class="randomRock" name="randomRock" src="./assets/rock2.png" onclick="playAudio('./assets/5eec9fd189fe212f1d0f4660d6bfb46e.wav');remove(this)"/>
+  <img class="randomRock" id="randomRock" src="./assets/rock2.png" onclick="playAudio('./assets/5eec9fd189fe212f1d0f4660d6bfb46e.wav');remove(this)" onload="randomPlace()"/>
+  <script>
+    function randomPlace(){
+      randomRock = document.getElementById("randomRock");
+      spaceW = screen.height - randomRock.height;
+      spaceH = screen.width - randomRock.width;
+      document.getElementById("randomRock").style.top = Math.floor(Math.random() * spaceH) + "px";
+      document.getElementById("randomRock").style.left = Math.floor(Math.random() * spaceW) + "px";
+    }
+  </script>
   <img class="speech" src="./assets/speechBubble.svg" />
   <img class="speech" src="./assets/speechBubble.svg" />
   </div">
